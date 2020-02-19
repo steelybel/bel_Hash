@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\s199011\source\repos\bel_hash\bel_hash\hash.h(34): warning C4018: '<': signed/unsigned mismatch
+  bel_Hash.vcxproj -> C:\Users\s199011\source\repos\bel_Hash\Debug\bel_Hash.exe

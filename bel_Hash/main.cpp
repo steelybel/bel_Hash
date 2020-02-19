@@ -4,9 +4,10 @@
 #include "hash.h"
 int main()
 {
-	tHashmap<std::string, int> favoriteNumbersByName;
-	favoriteNumbersByName["Terry"] = 5;
-
-	std::cout << favoriteNumbersByName["Terry"] << std::endl; // 5
+	int useless = 0;
+	std::string input = "";
+	std::cin >> input;
+	std::cout << (hash<std::string>(input)) << std::endl;
+	std::cin >> useless;
 	return 0;
 }
